@@ -37,7 +37,7 @@ guessBtn.addEventListener('click', function(){
 
   // Validate input
   if(isNaN(guess) || guess < min || guess > max){
-    errorMessage(`Please enter a number from ${min} to3e ${max}.`,'red');
+    errorMessage(`Please enter a number from ${min} to ${max}.`,'red');
   }else{
   
   // If won
